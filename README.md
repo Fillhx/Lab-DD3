@@ -49,3 +49,14 @@ El código se organiza en cuatro paquetes:
 La lógica del combate no depende de la interfaz. Avisa de cada evento por medio de `BattleListener` y la ventana se actualiza a partir de esos eventos. Las peticiones a la API y el combate se ejecutan en segundo plano con `SwingWorker`, así la interfaz no se congela.
 
 **Fórmula de daño:** `max(1, round((10 · ATK / DEF + 2) · aleatorio(0.85–1.0) · crítico · efectividad))`, con 10 % de probabilidad de crítico (×1.5) y efectividad simple por tipo (×1.3 / ×0.7).
+
+## Capturas
+
+### Pantalla inicial
+![Pantalla inicial](images/pantalla-inicial.png)
+
+### Selección de Pokémon
+![Selección de Pokémon](images/selecciondepokemon.png)
+
+### Resultado de la pelea
+![Logs resultado de pelea](images/logs-resultadodepelea.png)
